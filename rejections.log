@@ -1,0 +1,7 @@
+2022-02-25T14:36:44.979Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:9:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)

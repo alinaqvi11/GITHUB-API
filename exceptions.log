@@ -1,0 +1,26 @@
+2022-02-25T14:36:44.979Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:9:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-25T14:38:00.475Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:9:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-25T14:38:00.506Z  error: uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:412:35)
+    at DerivedLogger.emit (domain.js:475:12)
