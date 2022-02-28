@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "ali ",
   "main": "server.ts",
+ 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./bin/server.ts",
+    "start": "nodemon Bin/Server.ts start",
     "build": "tsc -p ."
   },
   "author": "ali",

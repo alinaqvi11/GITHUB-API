@@ -1,0 +1,943 @@
+2022-02-25T14:36:44.979Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:9:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-25T14:38:00.475Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:9:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-25T14:38:00.506Z  error: uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:412:35)
+    at DerivedLogger.emit (domain.js:475:12)
+2022-02-28T12:37:02.172Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T12:37:59.434Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T12:39:38.893Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T12:45:50.128Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T17:10:16.244Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Services/GithubService.ts[0m:[93m19[0m:[93m26[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m19[0m       const pagination = new Pagination(perpage)
+[7m  [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96mApp/Application/Utils/Pagination.ts[0m:[93m6[0m:[93m32[0m
+    [7m6[0m     constructor(perpage:number,currentpage:number){
+    [7m [0m [96m                               ~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'currentpage' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Services/GithubService.ts[0m:[93m19[0m:[93m26[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m19[0m       const pagination = new Pagination(perpage)
+[7m  [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96mApp/Application/Utils/Pagination.ts[0m:[93m6[0m:[93m32[0m
+    [7m6[0m     constructor(perpage:number,currentpage:number){
+    [7m [0m [96m                               ~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'currentpage' was not provided.
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:10:37.271Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:21:29.893Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:21:52.990Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:22:08.548Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:22:19.555Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:22:35.694Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:23:04.917Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:23:23.978Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:23:51.283Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:23:57.033Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:24:34.295Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:25:24.307Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:27:07.616Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:27:32.079Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:28:32.009Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:30:01.271Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:30:49.107Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:31:13.882Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:32:10.239Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:32:33.696Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:35:47.784Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:36:46.423Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:37:04.771Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:38:11.054Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m10[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | undefined' is not assignable to type 'number'.
+  Type 'undefined' is not assignable to type 'number'.
+
+[7m10[0m     this.currentPage = pagination.currentpage;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:38:21.443Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Services/GithubService.ts[0m:[93m19[0m:[93m26[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m19[0m       const pagination = new Pagination(perpage)
+[7m  [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96mApp/Application/Utils/Pagination.ts[0m:[93m6[0m:[93m32[0m
+    [7m6[0m     constructor(perpage:number,currentpage:number){
+    [7m [0m [96m                               ~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'currentpage' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Services/GithubService.ts[0m:[93m19[0m:[93m26[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 1.
+
+[7m19[0m       const pagination = new Pagination(perpage)
+[7m  [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96mApp/Application/Utils/Pagination.ts[0m:[93m6[0m:[93m32[0m
+    [7m6[0m     constructor(perpage:number,currentpage:number){
+    [7m [0m [96m                               ~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'currentpage' was not provided.
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T17:47:13.636Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m23[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | false' is not assignable to type 'boolean'.
+  Type 'number' is not assignable to type 'boolean'.
+
+[7m23[0m     return this.currentPage > 1 && this.currentPage = this.totalPages;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m23[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m23[0m     return this.currentPage > 1 && this.currentPage = this.totalPages;
+[7m  [0m [91m                                                    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m23[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'number | false' is not assignable to type 'boolean'.
+  Type 'number' is not assignable to type 'boolean'.
+
+[7m23[0m     return this.currentPage > 1 && this.currentPage = this.totalPages;
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m23[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m23[0m     return this.currentPage > 1 && this.currentPage = this.totalPages;
+[7m  [0m [91m                                                    ~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T18:28:34.691Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:28:46.682Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:28:46.697Z  error: uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:412:35)
+    at DerivedLogger.emit (domain.js:475:12)
+2022-02-28T18:29:32.215Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:29:53.116Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:30:58.238Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:33:24.235Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:33:24.254Z  error: uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:412:35)
+    at DerivedLogger.emit (domain.js:475:12)
+2022-02-28T18:33:42.230Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:38:22.275Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:38:41.584Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:38:41.606Z  error: uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:412:35)
+    at DerivedLogger.emit (domain.js:475:12)
+2022-02-28T18:39:23.991Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:40:03.018Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:40:03.030Z  error: uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:412:35)
+    at DerivedLogger.emit (domain.js:475:12)
+2022-02-28T18:42:29.205Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:45:11.348Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:45:11.366Z  error: uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:412:35)
+    at DerivedLogger.emit (domain.js:475:12)
+2022-02-28T18:47:31.761Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:49:20.339Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:51:26.082Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:51:54.037Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:51:54.054Z  error: uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:412:35)
+    at DerivedLogger.emit (domain.js:475:12)
+2022-02-28T18:54:04.976Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:55:43.929Z  error: unhandledRejection: Cannot read property 'statusCode' of undefined
+TypeError: Cannot read property 'statusCode' of undefined
+    at Function.convertToExpress (C:\Users\LeoMeo\Desktop\github-api\App\Application\Utils\HttpResponse.ts:18:36)
+    at C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:6:18
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T18:55:43.948Z  error: uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\LeoMeo\Desktop\github-api\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\LeoMeo\Desktop\github-api\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:412:35)
+    at DerivedLogger.emit (domain.js:475:12)

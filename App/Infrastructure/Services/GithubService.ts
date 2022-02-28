@@ -3,25 +3,26 @@ import httpResponse from "../../Application/Utils/HttpResponse";
 import githubEntity from "../../Domain/entities/github/GithubEntity";
 import githubRepository from "../../Infrastructure/Repositories/GithubRepository";
 import Pagination from "../../Application/Utils/Pagination";
-import logger from "../../../logger";
+import logger from "../Logger/logger";
 class GithubService {
-  async *fetchCommits(perpage: number, page: number) {
+  async *fetchCommits(pagination:Pagination) {
     try {
-      // const pagination = new Pagination(perpage,page)
-      const commits: any = await githubRepository.getGitHubData(perpage,page);
+      const commits: any = await githubRepository.getGithubData(pagination);
       yield commits;
     } catch (err:any) {
       logger.error({message : err.message});
     }
   }
-  getDataWithGenerator = async (perpage: number, page: number) => {
+  getDataWithGenerator = async (query:any) => {
     try {
-      const data: any = this.fetchCommits(perpage, page);
+      const {perpage,page} = query;
+      const pagination = new Pagination(perpage,page)
+      const data: any = this.fetchCommits(pagination);
       for await (const value of data) {
-        const commit = value.map((item: any) => {
-          return githubEntity.createFromObject(item);
-        });
-        return httpResponse.create(statusCode.Ok, commit);
+        // const commit = value.map((item: any) => {
+        //   return githubEntity.createFromObject(item);
+        // });
+        return httpResponse.create(statusCode.Ok, value);
       }
     } catch (err) {
       return httpResponse.create(statusCode.SERVER_ERROR, err);

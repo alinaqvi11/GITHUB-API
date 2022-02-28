@@ -1,7 +1,7 @@
 import Pagination from "../../../Application/Utils/Pagination";
 
 interface githubInterface {
-    getGitHubData(perpage:any,page:any) :  Promise<any>;
+    getGithubData(pagination:Pagination) :  Promise<any>;
 }
 
 export default githubInterface;

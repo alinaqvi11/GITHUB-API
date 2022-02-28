@@ -1,0 +1,30 @@
+2022-02-28T12:37:02.013Z  error: getaddrinfo ENOTFOUND api.github.com
+2022-02-28T12:37:59.305Z  error: getaddrinfo ENOTFOUND api.github.com
+2022-02-28T12:39:38.858Z  error: getaddrinfo ENOTFOUND api.github.com
+2022-02-28T12:45:49.969Z  error: getaddrinfo ENOTFOUND api.github.com
+2022-02-28T18:28:34.597Z  error: Request failed with status code 403
+2022-02-28T18:28:46.677Z  error: Request failed with status code 403
+2022-02-28T18:29:10.008Z  error: Request failed with status code 403
+2022-02-28T18:29:32.117Z  error: Request failed with status code 403
+2022-02-28T18:29:53.031Z  error: Request failed with status code 403
+2022-02-28T18:30:58.154Z  error: Request failed with status code 403
+2022-02-28T18:33:24.214Z  error: Request failed with status code 403
+2022-02-28T18:33:42.145Z  error: Request failed with status code 403
+2022-02-28T18:38:22.105Z  error: Request failed with status code 403
+2022-02-28T18:38:41.573Z  error: Request failed with status code 403
+2022-02-28T18:38:55.054Z  error: Request failed with status code 403
+2022-02-28T18:39:23.825Z  error: Request failed with status code 403
+2022-02-28T18:40:03.012Z  error: Request failed with status code 403
+2022-02-28T18:40:24.862Z  error: Request failed with status code 403
+2022-02-28T18:40:52.945Z  error: Request failed with status code 403
+2022-02-28T18:41:12.833Z  error: Request failed with status code 403
+2022-02-28T18:41:46.545Z  error: Request failed with status code 403
+2022-02-28T18:42:29.020Z  error: Request failed with status code 403
+2022-02-28T18:45:11.342Z  error: Request failed with status code 403
+2022-02-28T18:47:09.618Z  error: Request failed with status code 403
+2022-02-28T18:47:31.606Z  error: Request failed with status code 403
+2022-02-28T18:49:20.112Z  error: Request failed with status code 403
+2022-02-28T18:51:25.935Z  error: Request failed with status code 403
+2022-02-28T18:51:54.033Z  error: Request failed with status code 403
+2022-02-28T18:54:04.760Z  error: Request failed with status code 403
+2022-02-28T18:55:43.916Z  error: Request failed with status code 403

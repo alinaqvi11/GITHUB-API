@@ -1,9 +1,17 @@
-import app from "../Http/App";
+'use strict';
 import { config } from "../App/Infrastructure/Config";
-import logger from "../logger";
 const port = config.port || 4000;
+import { Command } from "commander";
+const program = new Command();
+import logger from '../App/Infrastructure/Logger/logger';
+import app from '../Http/App';
 
-
-app.listen(port, () => {
-  logger.info(`Running on port ${port}`);
+program
+.command("start")
+.action(() => {
+  app.listen(port, () => {
+    logger.info(`Running On Port ${port}`);
+  });
+  
 });
+program.parse(process.argv);

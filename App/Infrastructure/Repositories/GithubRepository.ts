@@ -1,19 +1,20 @@
 import axios from "axios";
 import Pagination from "../../Application/Utils/Pagination";
-import gitHubInterface from "../../Domain/entities/github/IGithubRepository";
+import githubInterface from "../../Domain/entities/github/IGithubRepository";
 import  {config}  from "../Config/index";
-
-class GithubRepository implements gitHubInterface{
-  async getGitHubData (perpage:any,page:any): Promise<any>{
-    let url = `${config.url}?per_page=${perpage}&page=${page}`;
-    while (url) {
-      const commits = await axios({
-        method: "get",
-        url,
+import PaginatedCollection from "../../Application/Utils/PaginationCollection";
+import githubEntity from "../../Domain/entities/github/GithubEntity";
+import logger from "../Logger/logger";
+class GithubRepository implements githubInterface{
+  async getGithubData (pagination:Pagination): Promise<any>{
+    let url = `${config.url}`;
+      const commits = await axios.get(url);
+      const commitData = commits.data;
+      const commit = commitData.map((item: any) => {
+        return githubEntity.createFromObject(item);
       });
-      // console.log(commits)
-      return commits.data;
-    }
+      const paginatedCollection = new PaginatedCollection<githubEntity>(pagination,commit.length,commit);
+      return paginatedCollection.getPaginatedData();
   };
 }
 
