@@ -1,9 +1,3 @@
-2022-02-25T14:29:19.802Z  info: Running on port 4000
-2022-02-25T14:30:56.540Z  info: Running on port 4000
-2022-02-25T14:32:54.181Z  info: Running on port 4000
-2022-02-25T14:33:08.111Z  info: Running on port 4000
-2022-02-25T14:36:17.319Z  info: Running on port 4000
-2022-02-25T14:36:38.790Z  info: Running on port 4000
 2022-02-25T14:36:44.894Z  info: connect ECONNREFUSED 52.128.23.153:443
 2022-02-25T14:38:00.458Z  info: connect ECONNREFUSED 52.128.23.153:443
 2022-02-25T20:02:27.499Z  info: Running on port 4000
@@ -267,3 +261,4 @@
 2022-02-28T18:54:04.760Z  error: Request failed with status code 403
 2022-02-28T18:55:43.916Z  error: Request failed with status code 403
 2022-02-28T18:58:23.757Z  info: Running On Port 4000
+2022-02-28T18:59:06.672Z  info: Running On Port 4000
