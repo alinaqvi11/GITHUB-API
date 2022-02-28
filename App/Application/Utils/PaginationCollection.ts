@@ -5,6 +5,7 @@ class PaginatedCollection<C> {
   perPage: number;
   currentPage: number;
 
+
   constructor(pagination: pagination, totalCommits: number, commits: C[]) {
     this.perPage = pagination.perpage;
     this.currentPage = pagination.currentpage;
@@ -16,21 +17,12 @@ class PaginatedCollection<C> {
     return Math.ceil(this.totalCommits / this.perPage);
   }
 
-  hasNext(): boolean {
-    return this.currentPage < this.totalPages;
-  }
-  hasPrev(): boolean {
-    return this.currentPage > 1 && this.currentPage <= this.totalPages;
-  }
-
   getPaginatedData() {
     const paginatedData = {
       totalCommits: this.totalCommits,
       totalPages: this.totalPages,
       currentPage: this.currentPage,
       perPage: this.perPage,
-      previousPage: this.hasPrev(),
-      nextPage: this.hasNext(),
       data: this.commits,
     };
     return paginatedData;

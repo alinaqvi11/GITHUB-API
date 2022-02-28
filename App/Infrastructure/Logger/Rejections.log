@@ -789,3 +789,201 @@ TypeError: Cannot read property 'statusCode' of undefined
     at Generator.next (<anonymous>)
     at fulfilled (C:\Users\LeoMeo\Desktop\github-api\Http\Controllers\GithubController.ts:5:58)
     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-02-28T19:19:03.689Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m33[0m:[93m7[0m - [91merror[0m[90m TS1117: [0mAn object literal cannot have multiple properties with the same name in strict mode.
+
+[7m33[0m       currentPage:this.gitCurrentPage,
+[7m  [0m [91m      ~~~~~~~~~~~[0m
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m33[0m:[93m7[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'currentPage'.
+
+[7m33[0m       currentPage:this.gitCurrentPage,
+[7m  [0m [91m      ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m33[0m:[93m7[0m - [91merror[0m[90m TS1117: [0mAn object literal cannot have multiple properties with the same name in strict mode.
+
+[7m33[0m       currentPage:this.gitCurrentPage,
+[7m  [0m [91m      ~~~~~~~~~~~[0m
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m33[0m:[93m7[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'currentPage'.
+
+[7m33[0m       currentPage:this.gitCurrentPage,
+[7m  [0m [91m      ~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T19:20:27.653Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m29[0m:[93m17[0m - [91merror[0m[90m TS2663: [0mCannot find name 'gitCurrentPage'. Did you mean the instance member 'this.gitCurrentPage'?
+
+[7m29[0m     console.log(gitCurrentPage)
+[7m  [0m [91m                ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m29[0m:[93m17[0m - [91merror[0m[90m TS2663: [0mCannot find name 'gitCurrentPage'. Did you mean the instance member 'this.gitCurrentPage'?
+
+[7m29[0m     console.log(gitCurrentPage)
+[7m  [0m [91m                ~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T19:22:13.068Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Services/GithubService.ts[0m:[93m19[0m:[93m54[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 3.
+
+[7m19[0m       const pagination = new Pagination(perpage,page,gitpage)
+[7m  [0m [91m                                                     ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Services/GithubService.ts[0m:[93m19[0m:[93m54[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 3.
+
+[7m19[0m       const pagination = new Pagination(perpage,page,gitpage)
+[7m  [0m [91m                                                     ~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T19:22:21.451Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Services/GithubService.ts[0m:[93m19[0m:[93m54[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 3.
+
+[7m19[0m       const pagination = new Pagination(perpage,page,gitpage)
+[7m  [0m [91m                                                     ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Services/GithubService.ts[0m:[93m19[0m:[93m54[0m - [91merror[0m[90m TS2554: [0mExpected 2 arguments, but got 3.
+
+[7m19[0m       const pagination = new Pagination(perpage,page,gitpage)
+[7m  [0m [91m                                                     ~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T19:26:03.447Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m16[0m:[93m11[0m - [91merror[0m[90m TS1107: [0mJump target cannot cross function boundary.
+
+[7m16[0m           break;
+[7m  [0m [91m          ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m16[0m:[93m11[0m - [91merror[0m[90m TS1107: [0mJump target cannot cross function boundary.
+
+[7m16[0m           break;
+[7m  [0m [91m          ~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T19:27:41.748Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m20[0m:[93m84[0m - [91merror[0m[90m TS2552: [0mCannot find name 'commit'. Did you mean 'commits'?
+
+[7m20[0m       const paginatedCollection = new PaginatedCollection<githubEntity>(pagination,commit.length,commit);
+[7m  [0m [91m                                                                                   ~~~~~~[0m
+
+  [96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m11[0m:[93m13[0m
+    [7m11[0m       const commits = await axios.get(url);
+    [7m  [0m [96m            ~~~~~~~[0m
+    'commits' is declared here.
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m20[0m:[93m98[0m - [91merror[0m[90m TS2552: [0mCannot find name 'commit'. Did you mean 'commits'?
+
+[7m20[0m       const paginatedCollection = new PaginatedCollection<githubEntity>(pagination,commit.length,commit);
+[7m  [0m [91m                                                                                                 ~~~~~~[0m
+
+  [96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m11[0m:[93m13[0m
+    [7m11[0m       const commits = await axios.get(url);
+    [7m  [0m [96m            ~~~~~~~[0m
+    'commits' is declared here.
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m19[0m:[93m8[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m19[0m       });
+[7m  [0m [91m       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m20[0m:[93m84[0m - [91merror[0m[90m TS2552: [0mCannot find name 'commit'. Did you mean 'commits'?
+
+[7m20[0m       const paginatedCollection = new PaginatedCollection<githubEntity>(pagination,commit.length,commit);
+[7m  [0m [91m                                                                                   ~~~~~~[0m
+
+  [96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m11[0m:[93m13[0m
+    [7m11[0m       const commits = await axios.get(url);
+    [7m  [0m [96m            ~~~~~~~[0m
+    'commits' is declared here.
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m20[0m:[93m98[0m - [91merror[0m[90m TS2552: [0mCannot find name 'commit'. Did you mean 'commits'?
+
+[7m20[0m       const paginatedCollection = new PaginatedCollection<githubEntity>(pagination,commit.length,commit);
+[7m  [0m [91m                                                                                                 ~~~~~~[0m
+
+  [96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m11[0m:[93m13[0m
+    [7m11[0m       const commits = await axios.get(url);
+    [7m  [0m [96m            ~~~~~~~[0m
+    'commits' is declared here.
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m19[0m:[93m8[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m19[0m       });
+[7m  [0m [91m       ~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-02-28T19:28:24.953Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m19[0m:[93m8[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m19[0m       });
+[7m  [0m [91m       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m19[0m:[93m8[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m19[0m       });
+[7m  [0m [91m       ~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
