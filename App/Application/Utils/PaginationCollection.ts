@@ -1,4 +1,5 @@
 import pagination from "./Pagination";
+import PaginationInfo from "./PaginationInfo";
 class PaginatedCollection<C> {
   commits: C[];
   totalCommits: number;
@@ -18,14 +19,14 @@ class PaginatedCollection<C> {
   }
 
   getPaginatedData() {
-    const paginatedData = {
+    const paginationInfo: PaginationInfo = {
       totalCommits: this.totalCommits,
       totalPages: this.totalPages,
       currentPage: this.currentPage,
       perPage: this.perPage,
-      data: this.commits,
-    };
-    return paginatedData;
+      data: this.commits
+    }
+    return paginationInfo;
   }
 }
 

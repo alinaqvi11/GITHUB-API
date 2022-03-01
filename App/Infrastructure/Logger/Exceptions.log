@@ -1205,3 +1205,1031 @@ TSError: ⨯ Unable to compile TypeScript:
     at Module.load (internal/modules/cjs/loader.js:950:32)
     at Function.Module._load (internal/modules/cjs/loader.js:790:12)
     at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T12:20:56.675Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity; }>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity; }>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity; }'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity; }>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity; }>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity; }'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T12:48:04.174Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithunPaginatedEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithunPaginatedEntity>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type 'GithunPaginatedEntity'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithunPaginatedEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithunPaginatedEntity>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type 'GithunPaginatedEntity'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T12:48:30.016Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type 'GithubPaginationEntity'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type 'GithubPaginationEntity'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T12:48:36.678Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type 'GithubPaginationEntity'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type 'GithubPaginationEntity'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T12:48:51.544Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type 'GithubPaginationEntity'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type 'GithubPaginationEntity'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T12:49:03.561Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type 'GithubPaginationEntity'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type 'GithubPaginationEntity'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T12:49:47.840Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type 'GithubPaginationEntity'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type 'GithubPaginationEntity'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T12:52:34.897Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type 'GithubPaginationEntity'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is not assignable to type 'GithubPaginationEntity'.
+        Types of property 'data' are incompatible.
+          Type 'GitHubEntity[]' is missing the following properties from type 'GitHubEntity': name, email, date, message, url
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T12:57:27.967Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Property 'currentpage' is missing in type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' but required in type 'GithubPaginationEntity'.
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+  [96mApp/Domain/entities/github/GithubPaginationEntity.ts[0m:[93m6[0m:[93m5[0m
+    [7m6[0m     currentpage: number;
+    [7m [0m [96m    ~~~~~~~~~~~[0m
+    'currentpage' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Property 'currentpage' is missing in type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' but required in type 'GithubPaginationEntity'.
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+  [96mApp/Domain/entities/github/GithubPaginationEntity.ts[0m:[93m6[0m:[93m5[0m
+    [7m6[0m     currentpage: number;
+    [7m [0m [96m    ~~~~~~~~~~~[0m
+    'currentpage' is declared here.
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T13:35:30.193Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T13:36:13.863Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T13:37:27.190Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m9[0m   async getGithubCommits (pagination:Pagination){
+[7m [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T13:43:17.462Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m8[0m:[93m36[0m - [91merror[0m[90m TS2306: [0mFile 'C:/Users/LeoMeo/Desktop/github-api/App/Domain/entities/github/GithubPaginationEntity.ts' is not a module.
+
+[7m8[0m import GithubPaginationEntity from "../../Domain/entities/github/GithubPaginationEntity";
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m8[0m:[93m36[0m - [91merror[0m[90m TS2306: [0mFile 'C:/Users/LeoMeo/Desktop/github-api/App/Domain/entities/github/GithubPaginationEntity.ts' is not a module.
+
+[7m8[0m import GithubPaginationEntity from "../../Domain/entities/github/GithubPaginationEntity";
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T13:43:27.103Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m8[0m:[93m36[0m - [91merror[0m[90m TS2306: [0mFile 'C:/Users/LeoMeo/Desktop/github-api/App/Domain/entities/github/GithubPaginationEntity.ts' is not a module.
+
+[7m8[0m import GithubPaginationEntity from "../../Domain/entities/github/GithubPaginationEntity";
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m8[0m:[93m36[0m - [91merror[0m[90m TS2306: [0mFile 'C:/Users/LeoMeo/Desktop/github-api/App/Domain/entities/github/GithubPaginationEntity.ts' is not a module.
+
+[7m8[0m import GithubPaginationEntity from "../../Domain/entities/github/GithubPaginationEntity";
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T13:48:27.221Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<GithubPaginationEntity>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<GithubPaginationEntity>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type 'GithubPaginationEntity' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, currentPage, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<GithubPaginationEntity>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<GithubPaginationEntity>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type 'GithubPaginationEntity' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, currentPage, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T13:48:47.600Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<GithubPaginationEntity>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<GithubPaginationEntity>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type 'GithubPaginationEntity' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, currentPage, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<GithubPaginationEntity>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<GithubPaginationEntity>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type 'GithubPaginationEntity' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, currentPage, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T13:49:47.675Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<GithubPaginationEntity>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<GithubPaginationEntity>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type 'GithubPaginationEntity' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, currentPage, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<GithubPaginationEntity>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<GithubPaginationEntity>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type 'GithubPaginationEntity' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, currentPage, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T13:50:21.491Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<GithubPaginationEntity>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<GithubPaginationEntity>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type 'GithubPaginationEntity' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, currentPage, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<GithubPaginationEntity>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<GithubPaginationEntity>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type 'GithubPaginationEntity' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, currentPage, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T13:56:08.119Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T13:57:40.900Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T14:12:46.647Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Domain/entities/github/GithubPaginationEntity.ts[0m:[93m22[0m:[93m25[0m - [91merror[0m[90m TS2554: [0mExpected 6 arguments, but got 4.
+
+[7m 22[0m         const commit =  new GithubPaginationEntity(
+[7m   [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m 23[0m             obj.totalCommits,
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m 26[0m             obj.perPage,
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m 27[0m         )
+[7m   [0m [91m~~~~~~~~~[0m
+
+  [96mApp/Domain/entities/github/GithubPaginationEntity.ts[0m:[93m11[0m:[93m97[0m
+    [7m11[0m     constructor(Pagination:Pagination,totalCommits:number,totalPages:number,currentpage: number,perPage: number,data:GithubEntity){
+    [7m  [0m [96m                                                                                                ~~~~~~~~~~~~~~~[0m
+    An argument for 'perPage' was not provided.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Domain/entities/github/GithubPaginationEntity.ts[0m:[93m22[0m:[93m25[0m - [91merror[0m[90m TS2554: [0mExpected 6 arguments, but got 4.
+
+[7m 22[0m         const commit =  new GithubPaginationEntity(
+[7m   [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m 23[0m             obj.totalCommits,
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m 26[0m             obj.perPage,
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m 27[0m         )
+[7m   [0m [91m~~~~~~~~~[0m
+
+  [96mApp/Domain/entities/github/GithubPaginationEntity.ts[0m:[93m11[0m:[93m97[0m
+    [7m11[0m     constructor(Pagination:Pagination,totalCommits:number,totalPages:number,currentpage: number,perPage: number,data:GithubEntity){
+    [7m  [0m [96m                                                                                                ~~~~~~~~~~~~~~~[0m
+    An argument for 'perPage' was not provided.
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T14:14:02.823Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<GithubPaginationEntity>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<GithubPaginationEntity>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type 'GithubPaginationEntity' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, currentPage, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<GithubPaginationEntity>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<GithubPaginationEntity>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type 'GithubPaginationEntity' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, currentPage, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T14:17:14.177Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m21[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m21[0m       return paginatedCollection.getPaginatedData();
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m21[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m21[0m       return paginatedCollection.getPaginatedData();
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T14:17:28.000Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m21[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m21[0m       return paginatedCollection.getPaginatedData();
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m21[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m21[0m       return paginatedCollection.getPaginatedData();
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T14:31:09.281Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<GithubPaginationEntity>' is not assignable to type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>'.
+    Type 'Promise<GithubPaginationEntity>' is not assignable to type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>'.
+      Property 'currentPage' is missing in type 'GithubPaginationEntity' but required in type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }'.
+
+[7m10[0m   async getGithubCommits (pagination:Pagination) {
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+  [96mApp/Domain/entities/github/IGithubRepository.ts[0m:[93m11[0m:[93m9[0m
+    [7m11[0m         currentPage: number;
+    [7m  [0m [96m        ~~~~~~~~~~~[0m
+    'currentPage' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<GithubPaginationEntity>' is not assignable to type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>'.
+    Type 'Promise<GithubPaginationEntity>' is not assignable to type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>'.
+      Property 'currentPage' is missing in type 'GithubPaginationEntity' but required in type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }'.
+
+[7m10[0m   async getGithubCommits (pagination:Pagination) {
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+  [96mApp/Domain/entities/github/IGithubRepository.ts[0m:[93m11[0m:[93m9[0m
+    [7m11[0m         currentPage: number;
+    [7m  [0m [96m        ~~~~~~~~~~~[0m
+    'currentPage' is declared here.
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T15:22:40.078Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination) {
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m10[0m   async getGithubCommits (pagination:Pagination) {
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T15:23:03.324Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m59[0m - [91merror[0m[90m TS2552: [0mCannot find name 'PaginationCollection'. Did you mean 'PaginatedCollection'?
+
+[7m10[0m   async getGithubCommits (pagination:Pagination): Promise<PaginationCollection<githubEntity>> {
+[7m  [0m [91m                                                          ~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m10[0m:[93m59[0m - [91merror[0m[90m TS2552: [0mCannot find name 'PaginationCollection'. Did you mean 'PaginatedCollection'?
+
+[7m10[0m   async getGithubCommits (pagination:Pagination): Promise<PaginationCollection<githubEntity>> {
+[7m  [0m [91m                                                          ~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T15:24:10.617Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m23[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m23[0m       return obj;
+[7m  [0m [91m      ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m23[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m23[0m       return obj;
+[7m  [0m [91m      ~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T15:25:39.197Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m23[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m23[0m       return obj;
+[7m  [0m [91m      ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m23[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m23[0m       return obj;
+[7m  [0m [91m      ~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T15:26:41.029Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m23[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m23[0m       return obj;
+[7m  [0m [91m      ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m23[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m23[0m       return obj;
+[7m  [0m [91m      ~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T15:28:16.596Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m22[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType '() => { totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, totalCommits, perPage, currentPage, and 2 more.
+
+[7m22[0m       return paginatedCollection.getPaginatedData;
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m22[0m:[93m7[0m - [91merror[0m[90m TS2740: [0mType '() => { totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, totalCommits, perPage, currentPage, and 2 more.
+
+[7m22[0m       return paginatedCollection.getPaginatedData;
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T15:28:35.128Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m22[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m22[0m       return paginatedCollection.getPaginatedData();
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m22[0m:[93m7[0m - [91merror[0m[90m TS2739: [0mType '{ totalCommits: number; totalPages: number; currentPage: number; perPage: number; data: GitHubEntity[]; }' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, getPaginatedData
+
+[7m22[0m       return paginatedCollection.getPaginatedData();
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T15:31:01.340Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m11[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<GithubPaginationEntity>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<GithubPaginationEntity>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type 'GithubPaginationEntity' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, currentPage, getPaginatedData
+
+[7m11[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m11[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<GithubPaginationEntity>' is not assignable to type '(pagination: Pagination) => Promise<PaginatedCollection<GitHubEntity>>'.
+    Type 'Promise<GithubPaginationEntity>' is not assignable to type 'Promise<PaginatedCollection<GitHubEntity>>'.
+      Type 'GithubPaginationEntity' is missing the following properties from type 'PaginatedCollection<GitHubEntity>': commits, currentPage, getPaginatedData
+
+[7m11[0m   async getGithubCommits (pagination:Pagination){
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T15:40:47.791Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m27[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'C[]' is not assignable to type 'GitHubEntity[]'.
+  Type 'C' is not assignable to type 'GitHubEntity'.
+
+[7m27[0m       data: this.commits
+[7m  [0m [91m      ~~~~[0m
+
+  [96mApp/Application/Utils/PaginationInfo.ts[0m:[93m8[0m:[93m5[0m
+    [7m8[0m     data: GitHubEntity[],
+    [7m [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type 'PaginationInfo'
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Application/Utils/PaginationCollection.ts[0m:[93m27[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType 'C[]' is not assignable to type 'GitHubEntity[]'.
+  Type 'C' is not assignable to type 'GitHubEntity'.
+
+[7m27[0m       data: this.commits
+[7m  [0m [91m      ~~~~[0m
+
+  [96mApp/Application/Utils/PaginationInfo.ts[0m:[93m8[0m:[93m5[0m
+    [7m8[0m     data: GitHubEntity[],
+    [7m [0m [96m    ~~~~[0m
+    The expected type comes from property 'data' which is declared here on type 'PaginationInfo'
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T15:42:43.941Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m12[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<PaginationInfo>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<PaginationInfo>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Property 'currentpage' is missing in type 'PaginationInfo' but required in type 'GithubPaginationEntity'.
+
+[7m12[0m   async getGithubCommits (pagination:Pagination): Promise<PaginationInfo>{
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+  [96mApp/Domain/entities/github/GithubPaginationEntity.ts[0m:[93m7[0m:[93m5[0m
+    [7m7[0m     currentpage: number;
+    [7m [0m [96m    ~~~~~~~~~~~[0m
+    'currentpage' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m12[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'getGithubCommits' in type 'GithubRepository' is not assignable to the same property in base type 'GithubCommitsInterface'.
+  Type '(pagination: Pagination) => Promise<PaginationInfo>' is not assignable to type '(pagination: Pagination) => Promise<GithubPaginationEntity>'.
+    Type 'Promise<PaginationInfo>' is not assignable to type 'Promise<GithubPaginationEntity>'.
+      Property 'currentpage' is missing in type 'PaginationInfo' but required in type 'GithubPaginationEntity'.
+
+[7m12[0m   async getGithubCommits (pagination:Pagination): Promise<PaginationInfo>{
+[7m  [0m [91m        ~~~~~~~~~~~~~~~~[0m
+
+  [96mApp/Domain/entities/github/GithubPaginationEntity.ts[0m:[93m7[0m:[93m5[0m
+    [7m7[0m     currentpage: number;
+    [7m [0m [96m    ~~~~~~~~~~~[0m
+    'currentpage' is declared here.
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T15:46:09.347Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m8[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../../Domain/entities/github/GithubPaginationEntity' or its corresponding type declarations.
+
+[7m8[0m import GithubPaginationEntity from "../../Domain/entities/github/GithubPaginationEntity";
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mApp/Infrastructure/Repositories/GithubRepository.ts[0m:[93m8[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../../Domain/entities/github/GithubPaginationEntity' or its corresponding type declarations.
+
+[7m8[0m import GithubPaginationEntity from "../../Domain/entities/github/GithubPaginationEntity";
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
