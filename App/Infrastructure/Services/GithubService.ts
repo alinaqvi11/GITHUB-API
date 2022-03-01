@@ -17,8 +17,7 @@ class GithubService {
     try {
       const {perpage,page} = query;
       const pagination = new Pagination(perpage,page)
-      const data: any = this.fetchCommits(pagination);
-      for await (const value of data) {
+      for await (const value of this.fetchCommits(pagination)) {
         return httpResponse.create(statusCode.Ok, value);
       }
     } catch (err) {
