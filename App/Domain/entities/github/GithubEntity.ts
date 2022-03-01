@@ -1,10 +1,10 @@
 class GitHubEntity {
-  name: any;
-  email: any;
-  date: any;
-  message: any;
-  url: any;
-  constructor(name: any, email: any, date: any, message: any, url: any) {
+  name: string;
+  email: string;
+  date: Date;
+  message: string;
+  url: string;
+  constructor(name: string, email: string, date: Date, message: string, url: string) {
     this.name = name;
     this.email = email;
     this.date = date;

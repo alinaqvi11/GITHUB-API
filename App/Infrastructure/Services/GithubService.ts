@@ -7,21 +7,18 @@ import logger from "../Logger/logger";
 class GithubService {
   async *fetchCommits(pagination:Pagination) {
     try {
-      const commits: any = await githubRepository.getGithubData(pagination);
+      const commits: any = await githubRepository.getGithubCommits(pagination);
       yield commits;
     } catch (err:any) {
       logger.error({message : err.message});
     }
   }
-  getDataWithGenerator = async (query:any) => {
+  getGithubCommits = async (query:any) => {
     try {
       const {perpage,page} = query;
       const pagination = new Pagination(perpage,page)
       const data: any = this.fetchCommits(pagination);
       for await (const value of data) {
-        // const commit = value.map((item: any) => {
-        //   return githubEntity.createFromObject(item);
-        // });
         return httpResponse.create(statusCode.Ok, value);
       }
     } catch (err) {

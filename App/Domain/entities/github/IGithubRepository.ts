@@ -1,7 +1,7 @@
 import Pagination from "../../../Application/Utils/Pagination";
 
-interface githubInterface {
-    getGithubData(pagination:Pagination) :  Promise<any>;
+interface GithubInterface {
+    getGithubCommits(pagination:Pagination) :  Promise<any>;
 }
 
-export default githubInterface;
+export default GithubInterface;

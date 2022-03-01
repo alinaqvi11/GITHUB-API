@@ -987,3 +987,69 @@ TSError: ⨯ Unable to compile TypeScript:
     at Module.load (internal/modules/cjs/loader.js:950:32)
     at Function.Module._load (internal/modules/cjs/loader.js:790:12)
     at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T09:49:08.614Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mHttp/Routes/GithubRoutes.ts[0m:[93m4[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'getGitHubData' does not exist on type 'typeof GithubController'.
+
+[7m4[0m router.get("/commit", githubController.getGitHubData);
+[7m [0m [91m                                       ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mHttp/Routes/GithubRoutes.ts[0m:[93m4[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'getGitHubData' does not exist on type 'typeof GithubController'.
+
+[7m4[0m router.get("/commit", githubController.getGitHubData);
+[7m [0m [91m                                       ~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T09:49:21.432Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mHttp/Routes/GithubRoutes.ts[0m:[93m4[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'getGitHubData' does not exist on type 'typeof GithubController'.
+
+[7m4[0m router.get("/commit", githubController.getGitHubData);
+[7m [0m [91m                                       ~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mHttp/Routes/GithubRoutes.ts[0m:[93m4[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'getGitHubData' does not exist on type 'typeof GithubController'.
+
+[7m4[0m router.get("/commit", githubController.getGitHubData);
+[7m [0m [91m                                       ~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+2022-03-01T09:50:31.816Z  error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96mHttp/Controllers/GithubController.ts[0m:[93m5[0m:[93m41[0m - [91merror[0m[90m TS2339: [0mProperty 'getGithubCommits' does not exist on type 'GithubService'.
+
+[7m5[0m     const commits = await githubService.getGithubCommits(req.query);
+[7m [0m [91m                                        ~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96mHttp/Controllers/GithubController.ts[0m:[93m5[0m:[93m41[0m - [91merror[0m[90m TS2339: [0mProperty 'getGithubCommits' does not exist on type 'GithubService'.
+
+[7m5[0m     const commits = await githubService.getGithubCommits(req.query);
+[7m [0m [91m                                        ~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:828:12)
+    at reportTSError (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:832:19)
+    at getOutput (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1022:36)
+    at Object.compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1326:43)
+    at Module.m._compile (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1458:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\LeoMeo\Desktop\github-api\node_modules\ts-node\src\index.ts:1462:12)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
